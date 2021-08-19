@@ -1,13 +1,12 @@
-import Sidebar from "./Components/Sidebar/sidebar";
+import { FC } from "react";
+import Sidebar from "./Components/Sidebar/Sidebar";
 
-import HeaderBar from "./Components/Header/HeaderBar";
 
-const App = () => {
+const App: FC = () => {
   return (
-    <div>
+    <>
       <Sidebar />
-      <HeaderBar name="Horacio" />
-    </div>
+    </>
   );
 };
 
