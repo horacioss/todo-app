@@ -7,23 +7,38 @@
   border-right: solid 1px #e4e5e7;
 
   .tab_container {
-    padding: 10px 0;
+    cursor: pointer;
+    padding: 10px 20px 10px 0;
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: center;
+    margin: 0.25rem 0;
+    justify-content: space-between;
   }
 
   .link {
     font-size: 14px;
-    color: #505f79;
+    margin-top: 4px;
+    color: #999999;
     font-family: "Public Sans", sans-serif;
     font-weight: 300;
   }
 
   .icon {
-    width: 18px;
-    height: 18px;
-    margin-right: 20px;
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+  }
+
+  .count {
+    padding-top: 4px;
+    font-size: 70%;
+    text-align: center;
+    color: #FFF;
+    width: 1.4rem; 
+    height: 1.4rem;
+    background-color: #505F79;
+    border-radius: 0.7rem;
   }
 }
 
