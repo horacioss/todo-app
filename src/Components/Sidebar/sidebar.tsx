@@ -35,3 +35,4 @@ const Sidebar = () => {
 };
 
 export default Sidebar;
+// Any comment that I didn't want to commit
